@@ -3,19 +3,12 @@ import Hero from './Hero'
 import About from './About'
 import Projects from './Projects'
 import Skills from './Skills'
-import Contact from './Contact'
 
 function Content() {
   const sections = [
     { id: 'about', title: '關於我', children: <About /> },
     { id: 'skills', title: '技能', children: <Skills /> },
-    { id: 'projects', title: '作品集', children: <Projects /> },
-    {
-      id: 'contact',
-      title: '聯絡我',
-      children: <Contact />,
-      titleConfig: { center: true }
-    }
+    { id: 'projects', title: '作品集', children: <Projects /> }
   ]
 
   return (
@@ -25,6 +18,7 @@ function Content() {
         const order = index + 1
         return (
           <section
+            key={id}
             id={id}
             className={cn('px-6 py-24', order % 2 === 1 && 'bg-light-navy/30')}
           >

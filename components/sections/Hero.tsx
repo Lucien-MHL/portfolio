@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="mx-auto max-w-4xl">
         <div className="text-green mb-4 font-mono">Hello World. I'm</div>
         <h1 className="text-lightest-slate mb-4 text-5xl font-bold md:text-7xl">
-          Lucien
+          Ming-Hui Lin (Lucien)
         </h1>
         <h2 className="text-slate mb-4 text-2xl font-bold md:text-4xl">
           專注於解決問題的前端工程師

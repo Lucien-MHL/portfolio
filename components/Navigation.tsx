@@ -20,9 +20,6 @@ export default function Navigation() {
             <a href="#skills" className="hover:text-green transition-colors">
               技術
             </a>
-            <a href="#contact" className="hover:text-green transition-colors">
-              聯絡
-            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -72,13 +69,6 @@ export default function Navigation() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 技術
-              </a>
-              <a
-                href="#contact"
-                className="hover:text-green transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                聯絡
               </a>
             </div>
           </div>

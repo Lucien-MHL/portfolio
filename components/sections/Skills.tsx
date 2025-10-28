@@ -1,23 +1,34 @@
 const skills = [
   {
-    title: '前端技術',
+    title: '前端框架與語言',
     list: [
-      'React',
-      'NextJs',
+      'React / Next.js',
+      'React Native',
       'TypeScript',
-      'JavaScript',
-      'HTML & CSS',
       'TailwindCSS',
       'Styled-components'
     ]
   },
   {
-    title: '狀態管理',
-    list: ['Redux-toolkit', 'Redux-saga', 'Redux-thunk', 'Zustand', 'MobX']
+    title: '狀態管理與測試',
+    list: [
+      'Redux Toolkit + Thunk',
+      'Redux Saga',
+      'MobX',
+      'Zustand',
+      'Jest + React Testing Library'
+    ]
   },
   {
-    title: '工具與其他',
-    list: ['Git', 'Vite', 'Axios', 'NodeJs', 'React Router', 'Webpack']
+    title: '資料視覺化與開發工具',
+    list: [
+      'D3.js',
+      'React-Leaflet',
+      'shadcn/ui',
+      'Git',
+      'Webpack / Vite',
+      'Monorepo (Nx)'
+    ]
   }
 ]
 

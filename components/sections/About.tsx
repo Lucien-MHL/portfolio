@@ -22,21 +22,22 @@ export default function About() {
       </p>
 
       <p className="mb-4">
-        在電商平台的工作經歷中，我<Important>在高標準環境下快速適應</Important>
-        React Native、TypeScript、Jest + React Testing
-        Library，並在嚴謹的開發流程中協作（Jira、PR、Code Review、CI/CD、Feature
-        Flag、A/B Test）。 解決過數個跨平台技術難題，如 iOS/Android
+        在電商平台的工作經歷中，我從零開始學習{' '}
+        <Important>
+          React Native、TypeScript、Jest + React Testing Library
+        </Important>
+        ，並在嚴謹的開發流程中協作（Jira、PR、Code Review、CI/CD、Feature
+        Flag、A/B Test）。解決過數個跨平台技術難題，如 iOS/Android
         滾動事件行為差異、ScrollView 事件穿透問題等。
       </p>
 
       <p className="mb-4">
-        在近期的工作經歷中，我
-        <Important>主動提出多項技術與流程改善方案</Important>
-        ，並在主管的支持下推動落地： 導入 TypeScript、建立 PR 制度與 Git
-        Flow、將 MobX 遷移至 Redux Toolkit + Thunk、 導入 Monorepo
-        專案管理、設定 GitLab + Telegram webhook
-        整合讓團隊即時掌握程式碼推送與合併狀況等。
-        也負責開發正式上線專案的關鍵功能，包括出入金系統（多渠道支付）與遊戲
+        在近期的工作經歷中，我主動提出多項技術與流程改善方案，並在主管的支持下推動：建立
+        PR 制度與 Git Flow、設定 GitLab + Telegram webhook
+        整合讓團隊即時掌握程式碼推送與合併狀況，以及在新專案開發中採用
+        TypeScript、探索並改用 Redux Toolkit + Thunk 取代 MobX（先試用 Redux
+        Saga 後發現 Thunk 更適合團隊需求）、導入 Monorepo (Nx)
+        專案管理等。也負責開發正式上線專案的關鍵功能，包括出入金系統（多渠道支付）與遊戲
         iframe 整合等。
       </p>
     </div>
