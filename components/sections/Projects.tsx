@@ -102,7 +102,12 @@ export default function Projects() {
           <div key={title} className="grid items-center gap-8 md:grid-cols-2">
             <div className={cn(isEven ? 'order-1 md:order-2' : 'order-1')}>
               <div className="relative h-64 overflow-hidden rounded-lg">
-                <Image {...image} fill className="object-cover" />
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  fill
+                  className="object-cover"
+                />
               </div>
             </div>
             <div className={cn(isEven ? 'order-2 md:order-1' : 'order-2')}>

@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="flex min-h-screen items-center justify-center px-6">
       <div className="mx-auto max-w-4xl">
-        <div className="text-green mb-4 font-mono">Hello World. I'm</div>
+        <div className="text-green mb-4 font-mono">{`Hello World. I'm`}</div>
         <h1 className="text-lightest-slate mb-4 text-5xl font-bold md:text-7xl">
           Ming-Hui Lin (Lucien)
         </h1>

@@ -14,7 +14,7 @@ function Content() {
   return (
     <>
       <Hero />
-      {sections.map(({ id, title, children, titleConfig }, index) => {
+      {sections.map(({ id, title, children }, index) => {
         const order = index + 1
         return (
           <section
@@ -23,12 +23,7 @@ function Content() {
             className={cn('px-6 py-24', order % 2 === 1 && 'bg-light-navy/30')}
           >
             <div className="mx-auto max-w-4xl">
-              <h2
-                className={cn(
-                  'text-lightest-slate mb-8 space-x-4 text-3xl font-bold',
-                  titleConfig?.center && 'text-center'
-                )}
-              >
+              <h2 className="text-lightest-slate mb-8 space-x-4 text-3xl font-bold">
                 <span className="text-green font-mono">
                   {order.toString().padStart(2, '0')}.
                 </span>
