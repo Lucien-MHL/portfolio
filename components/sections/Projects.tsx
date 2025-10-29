@@ -103,7 +103,7 @@ export default function Projects() {
             <div className={cn(isEven ? 'order-1 md:order-2' : 'order-1')}>
               <div className="relative h-64 overflow-hidden rounded-lg">
                 <Image
-                  src={image.src}
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/${image.src}`}
                   alt={image.alt}
                   fill
                   className="object-cover"
