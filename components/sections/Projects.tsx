@@ -17,15 +17,15 @@ const showcase: Showcase[] = [
   {
     title: '出入金系統',
     description:
-      '負責開發支援多種錢包類型的出入金系統，處理複雜的金流業務邏輯。\n\n業務挑戰：\n• 整合多種支付渠道（銀行卡、虛擬幣、支付寶、數字人民幣）\n• 處理不同渠道的回調機制與錯誤處理\n• 實作訂單狀態機（審核中 → 出款中 → 完成 / 失敗）\n• 優化支付憑證上傳與格式驗證流程\n\n技術實作：React + MobX + SCSS',
-    skills: ['React', 'MobX', 'SCSS'],
+      '獨立負責出入金系統的提款流程開發，實作訂單狀態機與紅包領取機制。\n\n技術亮點：\n• 訂單狀態管理（審核中 → 出款中 → 完成/失敗）\n• 紅包領取邏輯（倒數計時、Modal 動畫、條件渲染）\n• 支援 5 種支付渠道的錢包管理功能（微信/支付寶/銀行卡/虛擬錢包/數字人民幣）\n• 處理複雜的 API 回傳狀態，動態控制 UI 顯示\n• 參與快捷支付功能的前端開發與優化',
+    skills: ['React', 'MobX', 'SCSS', 'State Machine'],
     links: {
       github: '',
       demo: ''
     },
     image: {
-      src: '/images/payment-system.svg',
-      alt: '出入金系統流程圖'
+      src: '/images/payment-system.webp',
+      alt: '出入金系統'
     }
   },
   {
